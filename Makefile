@@ -14,5 +14,4 @@ decrypt: decrypt.o util.o AES.o sha256.o
 	${CXX} $^ -o $@ ${LDFLAGS}
 
 clean:
-	rm -f *.o encrypt decrypt util
-
+	rm -f *.o encrypt decrypt
