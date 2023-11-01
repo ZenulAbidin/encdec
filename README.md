@@ -10,7 +10,7 @@ Encdec uses AES-CBC-256 with a constant IV, and a key that is derived from the S
 
 ## Invocation
 
-To encrypt text, simply run `./encrypt`. It will prompt you for text data and a password. Only ASCII data is supported, the use of 8-bit characters or Unicode is not guarrenteed to encode the message correctly.
+To encrypt text, simply run `./encrypt`. It will prompt you for text data and a password. Only ASCII data is supported, the use of 8-bit characters or Unicode is not guarrenteed to encode the message correctly. As a workaround, you can encode your text in Base64 before encrypting, using another tool.
 
 Multiline data currently is not supported - if absolutely necessary, escape newlines using HTML encoding notation or base64.
 
